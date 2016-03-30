@@ -12,3 +12,7 @@
 =====
 - Create database name accedo in your mysql server
 - In your accedo directory, run php artisan migrate once done run php artisan db:seed
+- Done
+
+=====
+- Users credentials can be found here: database/seeds/UsersTableSeeder.php
