@@ -1,0 +1,45 @@
+body, html {
+    background: #141414;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    min-height: 100%;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #4DC7A0;
+    text-decoration: none;
+}
+
+.navigation {
+    padding-bottom: 60px;
+}
+
+.carousel-control {
+    padding-top: 10%;
+    width: 5%;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
