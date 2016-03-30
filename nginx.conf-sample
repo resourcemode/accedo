@@ -1,3 +1,10 @@
+server {
+         listen 80;
+         listen 443;
+         server_name accedo.dev;
+         access_log /var/log/nginx/accedo.access.log;
+         error_log /var/log/nginx/accedo.error.log;
+
        set $root_path '/var/www/accedo/public';
         root $root_path;
 
